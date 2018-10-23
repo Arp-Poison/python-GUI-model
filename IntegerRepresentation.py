@@ -20,7 +20,7 @@ class learn_sign_modulus_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Sign & Modulus", size=(1000, 700))
 
-        jpg = wx.Image("signmod.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/signmod.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -41,7 +41,7 @@ class sign_modulus_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Sign & Modulus Test", size=(1000, 700))
 
-        jpg = wx.Image("signmodtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/signmodtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -----------------------------------------------
@@ -137,7 +137,7 @@ class learn_ones_and_twos_complement_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn 1's and 2's Complement", size=(1000, 700))
 
-        jpg = wx.Image("complementpage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/complementpage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -165,7 +165,7 @@ class learn_ones_and_twos_complement_Frame_2(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn 1's and 2's Complement", size=(1000, 700))
 
-        jpg = wx.Image("complementpage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/complementpage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -185,7 +185,7 @@ class ones_and_twos_complement_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "1's and 2's complement test", size=(1000, 700))
 
-        jpg = wx.Image("complementstestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/complementstestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -----------------------------------------------
@@ -278,7 +278,7 @@ class score_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Test Score", size=(1000, 700))
 
-        jpg = wx.Image("binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         wx.StaticText(self.bmap, label="Correct:" + " " + str(correct), pos=(420, 240))

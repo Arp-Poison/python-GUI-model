@@ -20,7 +20,7 @@ class learn_binary_addition_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Binary Addition", size=(1000, 700))
 
-        jpg = wx.Image("binaryaddition1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binaryaddition1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -41,7 +41,7 @@ class binary_addition_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Addition Test", size=(1000, 700))
 
-        jpg = wx.Image("binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -------------------------------------------
@@ -141,7 +141,7 @@ class learn_binary_subtraction_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Binary Subtraction", size=(1000, 700))
 
-        jpg = wx.Image("subtraction1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/subtraction1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -162,7 +162,7 @@ class binary_subtraction_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Subtraction Test", size=(1000, 700))
 
-        jpg = wx.Image("binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -------------------------------------------
@@ -260,7 +260,7 @@ class learn_binary_multiplication(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Binary Multiplication", size=(1000, 700))
 
-        jpg = wx.Image("multiplication1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/multiplication1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -283,7 +283,7 @@ class binary_multiplication_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Multiplication Test", size=(1000, 700))
 
-        jpg = wx.Image("binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -------------------------------------------
@@ -380,7 +380,7 @@ class learn_binary_division_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Binary Division", size=(1000, 700))
 
-        jpg = wx.Image("div1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/div1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -402,7 +402,7 @@ class binary_division_test_Frame(wx.Frame):
     def __init__(self):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Division Test", size=(1000, 700))
 
-        jpg = wx.Image("binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -------------------------------------------
@@ -503,7 +503,7 @@ class score_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Test Score", size=(1000, 700))
 
-        jpg = wx.Image("binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathtestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Display to screen

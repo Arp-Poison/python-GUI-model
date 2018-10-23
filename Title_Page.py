@@ -12,7 +12,7 @@ class title_Frame(wx.Frame):
         wx.Frame.__init__(self, parent, id, "Representation of data in a computer", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("homescreenbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/homescreenbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -44,7 +44,7 @@ class categories_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Categories", size=(1000, 698))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("categoriesbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/categoriesbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -113,7 +113,7 @@ class help_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Help", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("helpbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/helpbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -133,7 +133,7 @@ class character_rep_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Character Representation", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("charrepbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/charrepbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -174,7 +174,7 @@ class ASCII_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "ASCII", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("asciibg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/asciibg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -219,7 +219,7 @@ class Unicode_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Unicode", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("unicodebg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/unicodebg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -262,7 +262,7 @@ class diffrent_number_systems(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Alternate Number Systems", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("altbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/altbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -310,7 +310,7 @@ class binary_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarybg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarybg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -353,7 +353,7 @@ class hexadecimal_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Hexadecimal", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("hexbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/hexbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -396,7 +396,7 @@ class decimal_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Decimal", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarybg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarybg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -439,7 +439,7 @@ class integer_representation(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Integer Representation", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("integerrepbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/integerrepbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (-5, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -480,7 +480,7 @@ class sign_modulus(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Sign & Modulus", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("signmodbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/signmodbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (-5, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -523,7 +523,7 @@ class ones_and_twos_complement(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "1's & 2's Complement", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("complementsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/complementsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (-5, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -566,7 +566,7 @@ class floating_point_representation(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Floating Point Representation", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("floatingbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/floatingbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -607,7 +607,7 @@ class real_number_representation_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Real Number Representation", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("limitationsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/limitationsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -650,7 +650,7 @@ class limitations_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Limitations", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("limitationsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/limitationsbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -693,7 +693,7 @@ class binary_arithmetic(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Arithmetic", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarymathbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymathbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -752,7 +752,7 @@ class binary_addition(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Addition", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binaryaddbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binaryaddbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -795,7 +795,7 @@ class binary_subtraction(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Subtraction", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarysubbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarysubbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -838,7 +838,7 @@ class binary_multiplication(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Multiplication", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarymultbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarymultbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click
@@ -881,7 +881,7 @@ class binary_division(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Binary Division", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("binarydivbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarydivbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (0, 0), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Creating and binding button widgets, as well as defining functions to call on click

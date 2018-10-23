@@ -27,7 +27,7 @@ class learn_ASCII_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn ASCII", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("asciipage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/asciipage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -58,7 +58,7 @@ class learn_ASCII_Frame_2(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn ASCII", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("asciipage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/asciipage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -80,7 +80,7 @@ class ASCII_test_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "ASCII test", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("asciitestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/asciitestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -171,7 +171,7 @@ class learn_unicode_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Unicode", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("unicodepage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/unicodepage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -202,7 +202,7 @@ class learn_unicode_Frame_2(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Learn Unicode", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("unicodepage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/unicodepage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -225,7 +225,7 @@ class unicode_test_Frame(wx.Frame):
         wx.Frame.__init__(self, None, wx.ID_ANY, "Unicode Test", size=(1000, 700))
 
         # Defining path to background image, image type, converting it to bitmap, defining its anchors
-        jpg = wx.Image("unicodetestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/unicodetestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         import random
@@ -313,7 +313,7 @@ class score_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Test Score", size=(1000, 700))
 
-        jpg = wx.Image("asciitestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/asciitestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # Display to screen
