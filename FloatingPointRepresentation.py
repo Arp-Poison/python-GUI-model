@@ -22,7 +22,7 @@ class learn_real_number_representation_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Real Number Representation", size=(1000, 700))
 
-        jpg = wx.Image("floatingpage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/floatingpage1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -50,7 +50,7 @@ class learn_real_number_representation_Frame_2(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Real Number Representation", size=(1000, 700))
 
-        jpg = wx.Image("floatingpage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/floatingpage2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -70,7 +70,7 @@ class real_number_representation_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Real Number Representation Test", size=(1000, 700))
 
-        jpg = wx.Image("binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         # -----------------------------------------------
@@ -162,7 +162,7 @@ class learn_limitations_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Limitations", size=(1000, 700))
 
-        jpg = wx.Image("limitations.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/limitations.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         back_button = wx.Button(self.bmap, label="Back", pos=(10, 650))
@@ -183,7 +183,7 @@ class limitations_test_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Limitations Test", size=(1000, 700))
 
-        jpg = wx.Image("binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         wx.StaticText(self.bmap, label="What is the main limitation of IEE 754 single precision floating point 32 bit standard?", pos=(300, 40))
@@ -232,7 +232,7 @@ class score_Frame(wx.Frame):
 
         wx.Frame.__init__(self, None, wx.ID_ANY, "Test Score", size=(1000, 700))
 
-        jpg = wx.Image("binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+        jpg = wx.Image("images/binarytestbg.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         self.bmap = wx.StaticBitmap(self, -1, jpg, (10, 5), (jpg.GetWidth(), jpg.GetHeight()))
 
         wx.StaticText(self.bmap, label="Correct:" + " " + str(correct), pos=(420, 240))
